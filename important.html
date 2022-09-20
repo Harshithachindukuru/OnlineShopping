@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Important</title>
+    <style>
+        #myid{
+background-color: pink;
+        }
+        .myclass{
+            background-color: yellow;
+        }
+        p{
+            background-color: red !important;
+        }
+    </style>
+</head>
+<body>
+    <p>Web designing is interesting.</p>
+    <p class="myclass">Web designing is interesting.</p>
+    <p id="myid">Web designing is interesting.</p>
+</body>
+</html>
+
+
+
+<!-- if you use the !important rule, it will override ALL previous styling rules for that specific property on that element! -->
